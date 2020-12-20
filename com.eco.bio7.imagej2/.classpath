@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="main/java/|test/java/" kind="src" path="src"/>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="libs/commons-math3-3.6.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/ejml-0.24.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/eventbus-1.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/imagej-common-0.31.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/imagej-mesh-0.7.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/imagej-ops-0.45.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/imglib2-5.8.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/imglib2-algorithm-0.11.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/imglib2-algorithm-fft-0.2.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/imglib2-realtransform-2.2.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/imglib2-roi-0.8.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/jama-1.0.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/jitk-tps-3.0.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/joml-1.9.16.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/log4j-1.2.17.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/miglayout-3.7.4-swing.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/mines-jtk-20151125.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/ojalgo-45.1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/parsington-1.0.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/prettytime-4.0.1.Final.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/scijava-common-2.82.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/scijava-search-0.6.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/scijava-table-0.4.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/scripting-javascript-0.4.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/trove4j-3.0.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/udunits-4.3.18.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="bin/"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-11"/>
+	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
